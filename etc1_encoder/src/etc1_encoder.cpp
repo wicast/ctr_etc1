@@ -67,7 +67,7 @@ extern "C" {
 		}
 
 		rg_etc1::pack_etc1_block(&block, pixels, g_etc1params);
-		block = _byteswap_uint64(block);
+		block = bswap_64(block);
 		std::memcpy(ptrOut, &block, 8);
 	}
 

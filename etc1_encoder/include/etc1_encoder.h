@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include <memory>
 #include "rg_etc1.h"
+#include "bs_swap.h"
 
 extern "C" {
     uint16_t g_height;
